@@ -1,0 +1,36 @@
+/* Main structure of the form */
+
+.checklist-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* Styling for the input field */
+
+.checklist-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: rgb(231, 233, 235);
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid rgb(0, 17, 17);
+    outline: none;
+}
+
+/* Styling for the submit button */
+
+.checklist-button {
+    padding: 16px;
+    font-size: 18px;
+    font-family: cursive;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(0, 17, 17);
+    color: rgb(225, 228, 231);
+    text-transform: capitalize;
+}
